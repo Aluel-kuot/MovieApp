@@ -1,0 +1,15 @@
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(4 ,1fr);
+    gap:4%;
+}
+.image-container{
+    width: auto;
+    overflow: hidden;
+}
+img{
+    object-fit: cover;
+    width: 100%;
+    height: auto;
+}
